@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(206, 215, 223);
+}
+.main{
+    display: flex;
+    position: relative;
+}
+.sidebar{
+    background-color: #282a3a;
+    height: 100%;
+    width: 230px;
+    position: fixed;
+    padding: 30px 0;
+}
+li{
+    list-style: none;
+    padding:15px;
+}
+li:hover{
+    background-color: rgba(206,215, 223, 0.3);
+}
+a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+
+}
+h1{
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+}
+.fa-brands{
+    color: #fff;
+    font-size: 20px;
+    width: 35px;
+    transition: all .2s;
+}
+.fa-solid{
+    width: 30px;
+}
+.icons{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translatex(-50%);
+    margin-bottom: 10px;
+}
+.fa-brands:hover{
+    transform: translatey(-10px);
+}
